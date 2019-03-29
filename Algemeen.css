@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   border: none;
-  left: 0;
+  left: 0; 
 }
 
 .navbar a {
@@ -20,7 +20,6 @@
   text-align: center;
   width: 75%;
   display: block;
-  font-family: 'Varela Round', sans-serif;
 }
 
 .navbar a:hover {
@@ -93,5 +92,6 @@
 * {box-sizing:border-box}
 body {
 margin-top:100px;
-font-family:'Varela Round', sans-serif;
+text-align: center; 
+font-family: 'Libre Barcode 39', cursive;
 }
