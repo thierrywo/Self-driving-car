@@ -98,7 +98,7 @@ margin-top:60px;
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 30%;
   margin:30px
 }
 
@@ -108,3 +108,9 @@ margin-top:60px;
   display: table;
   clear: both;
 }
+
+img {
+    width: 100%; /* you can use % */
+    height: auto;
+}
+
