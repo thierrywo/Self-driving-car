@@ -28,33 +28,38 @@
 <body>
 
 <head>
-<h1>Algemeen</h1>
+<h1>Contact</h1>
 </head>
-  <img src="images/Volvo.jpg" alt="Volvo" height="42" width="42">
-<p>Een zelfrijdende auto is een autonoom systeem dat je van A naar B brengt zonder dat je iets hoeft te doen. Het systeem maakt gebruik van sensoren en actuatoren die alles in je omgeving kunnen ‘zien’. Hierdoor weet het besturingssysteem precies of het moet remmen, gasgeven, inhalen of afslaan. Onderzoek en productie van deze zelfrijdende auto’s is in volle gang en zal de komende jaren ook steeds groter worden. Niet alleen zal het prettiger zijn voor de rijder dat hij/zij niets hoeft te doen, ook zullen er minder ongelukken gebeuren. Veel verkeersongevallen zijn veroorzaakt door menselijke fouten, die het besturingssysteem van een zelfrijdende auto niet zal maken.
-</p>
+<p></p>
 <div class="container">
-  <form action="action_page.php">
+  <div style="text-align:center">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/Volvo.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+  </div>
 </div>
 </body>
 </html>
