@@ -87,7 +87,6 @@ body {
 }
 img {
 	width: 100%;
-	/* you can use % */
 	height: auto;
 }
 .column {
