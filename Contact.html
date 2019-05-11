@@ -1,64 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="images/cropped-favicon.png" rel="icon" type="image/x-icon">
 	<title>Contact</title>
-<link rel="stylesheet" href="Contact.css">
-<script src="Contact.js"></script>
-  </head>
-
-<div class="navbar">
-  <button class="openbtn" onclick="openNav()">☰</button>
-  <a class="active" href="index.html">Zelfrijdende auto's</a>
-  <input type="text" placeholder="Search..">
-</div>
-
-
-  <link rel="stylesheet" href="sdc.css">
-  <script src="sdc.js"></script>
-
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <a href="Algemeen.html">Algemeen</a>
-    <a href="#">Tesla</a>
-    <a href="#">Volvo</a>
-    <a href="#">Waymo</a>
-    <a href="#">Yandex</a>
-    <a href="#">Navya</a>
-    <a href="#">Ford</a>
-    <a href="#">Contact</a>
-  </div>
+	<link href="Contact.css" rel="stylesheet">
+	<script src="Contact.js">
+	</script>
+</head>
 <body>
-  
-<div class="container">
-  <div style="text-align:center">
-    <h2>Contact Us</h2>
-    <p>Swing by for a cup of coffee, or leave us a message:</p>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="images/Volvo.jpg" style="width:100%">
-    </div>
-    <div class="column">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
-  
+	<div class="navbar">
+		<button class="openbtn" onclick="openNav()">☰</button> <a class="active" href="index.html">Zelfrijdende auto's</a> <input placeholder="Search.." type="text">
+	</div>
+	<link href="sdc.css" rel="stylesheet">
+	<script src="sdc.js">
+	</script>
+	<div class="sidebar" id="mySidebar">
+		<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a> <a href="Algemeen.html">Algemeen</a> <a href="Tesla.html">Tesla</a> <a href="Volvo.html">Volvo</a> <a href="Waymo.html">Waymo</a> <a href="Yandex.html">Yandex</a> <a href="Navya.html">Navya</a> <a href="Ford.html">Ford</a> <a href="Contact.html">Contact</a>
+	</div>
+	<div class="container">
+		<div style="text-align:center">
+			<h2>Contact Us</h2>
+			<p>Swing by for a cup of coffee, or leave us a message:</p>
+		</div>
+		<div class="row">
+			<div class="column"><img src="images/Volvo.jpg" style="width:100%"></div>
+			<div class="column">
+				<form action="/action_page.php">
+					<label for="fname">First Name</label> <input id="fname" name="firstname" placeholder="Your name.." type="text"> <label for="lname">Last Name</label> <input id="lname" name="lastname" placeholder="Your last name.." type="text"> <label for="country">Country</label> <select id="country" name="country">
+						<option value="australia">
+							Australia
+						</option>
+						<option value="canada">
+							Canada
+						</option>
+						<option value="usa">
+							USA
+						</option>
+					</select> <label for="subject">Subject</label> 
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea> <input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
