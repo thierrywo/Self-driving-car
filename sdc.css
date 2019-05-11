@@ -96,6 +96,7 @@ img {
 	margin: 30px;
 	border-radius: 4px;
   background-color: #555;
+  height:auto;
 }
 
 .column a:link {
@@ -110,4 +111,6 @@ img {
 	color: #FFFFFF;
 	text-decoration: none
 }
-
+img {
+  position:relative;
+}
