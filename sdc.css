@@ -1,5 +1,9 @@
--* {
+* {
 	box-sizing: border-box
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 60px;
 }
 .navbar {
 	width: 100%;
@@ -20,6 +24,7 @@
 	text-align: center;
 	width: 75%;
 	display: block;
+	font-family: 'Varela Round', sans-serif;
 }
 .navbar a:hover {
 	background-color: #000;
@@ -76,9 +81,37 @@
 	width: 15%;
 	padding: 12px;
 	font-size: 25px;
+	border: 1px solid #ccc;
+	border-radius: 4px
 }
-body {
-	margin-top: 100px;
-	text-align: center;
-	font-family: 'Libre Barcode 39', cursive;
+.column {
+	float: left;
+	width: 30%;
+	margin: 30px;
+	border: 1px solid #ccc;
+	border-radius: 4px
+}
+/* Clear floats after the columns */
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+img {
+	width: 100%;
+	/* you can use % */
+	height: auto;
+}
+.column a:link {
+	color: #000000;
+	text-decoration: none
+}
+.column a:visited {
+	color: #000000;
+	text-decoration: none
+}
+.column a:active {
+	color: #000000;
+	text-decoration: none
 }
