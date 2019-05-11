@@ -24,9 +24,7 @@
 .navbar a:hover {
 	background-color: #000;
 }
-.navbar a.active {
-	background-color: #blue;
-}
+
 .sidebar {
 	height: 100%;
 	width: 0;
@@ -63,10 +61,14 @@
 	background-color: #555;
 	text-decoration: none;
 	color: white;
-	padding: 12px;
+	padding: 14px;
 	border: none;
 	text-align: center;
 	width: 10%;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 60px;
 }
 .openbtn:hover {
 	background-color: #000;
@@ -82,11 +84,6 @@ img {
   border-radius: 4px;
 }
 
-body {
-	margin-top: 100px;
-	text-align: centre;
-	font-family: 'Libre Barcode 39', cursive;
-}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -106,12 +103,6 @@ input[type=submit]:hover {
   background-color: #000;
 }
 
-/* Style the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
 
 /* Create two columns that float next to eachother */
 .column {
