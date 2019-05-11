@@ -90,15 +90,17 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type=Stuur] {
   background-color: #555;
   color: white;
-  padding: 12px 20px;
+  padding: 17px 20px;
   border: none;
   cursor: pointer;
+  width: 81px; 
+  font-size: 17px; 
 }
 
-input[type=submit]:hover {
+input[type=Stuur]:hover {
   background-color: #000;
 }
 
@@ -124,4 +126,4 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
-}
+} 
