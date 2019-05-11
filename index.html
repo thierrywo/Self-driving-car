@@ -1,58 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="images/cropped-favicon.png" type="image/x-icon"/>
-  <title>Zelfrijdende auto's</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="images/cropped-favicon.png" rel="icon" type="image/x-icon">
+	<title>Zelfrijdende auto's</title>
+	<link href="sdc.css" rel="stylesheet">
+	<script src="sdc.js">
+	</script>
 </head>
-
-<link rel="stylesheet" href="sdc.css">
-<script src="sdc.js"></script>
-
-<div class="navbar">
-  <button class="openbtn" onclick="openNav()">☰</button>
-  <a class="active" href="#">Zelfrijdende auto's</a>
-  <input type="text" placeholder="Search..">
-</div>
-  
-<div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="Algemeen.html">Algemeen</a>
-  <a href="Tesla.html">Tesla</a>
-  <a href="Volvo.html">Volvo</a>
-  <a href="Waymo.html">Waymo</a>
-  <a href="Yandex.html">Yandex</a>
-  <a href="Navya.html">Navya</a>
-  <a href="Ford.html">Ford</a>
-  <a href="Contact.html">Contact</a>
-</div>
-
 <body>
-<div class="row">
-  
-  <div class="column" style="background-color:#aaa;">
-    <a href="Tesla.html">
-    <h2>Tesla</h2>
-    <img src="images/Tesla.jpg" alt="Tesla" >
-    <p>Tesla heeft de laatste jaren meerdere modelen elektrische autos uitgebracht</p>
-    </a>
-  </div>
-  
-  <div class="column" style="background-color:#bbb;">
-    <a href="Volvo.html">
-    <h2>Volvo</h2>
-    <img src="images/Volvo.jpg" alt="Volvo">
-    <p>Volvo is</p>
-    </a>
-  </div>
-  
-  <div class="column" style="background-color:#ccc;">
-    <a href="Waymo.html">
-    <h2>Waymo</h2>
-    <img src="images/Waymo.jpg" alt="Waymo" >
-    <p>Waymo is</p>
-    </a>
-  </div>
-  
-</div>
+	<div class="navbar">
+		<button class="openbtn" onclick="openNav()">☰</button> <a class="active" href="#">Zelfrijdende auto's</a> <input placeholder="Search.." type="text">
+	</div>
+	<div class="sidebar" id="mySidebar">
+		<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a> <a href="Algemeen.html">Algemeen</a> <a href="Tesla.html">Tesla</a> <a href="Volvo.html">Volvo</a> <a href="Waymo.html">Waymo</a> <a href="Yandex.html">Yandex</a> <a href="Navya.html">Navya</a> <a href="Ford.html">Ford</a> <a href="Contact.html">Contact</a>
+	</div>
+	<div class="row">
+		<div class="column" style="background-color:#aaa;">
+			<a href="Tesla.html">
+			<h2>Tesla</h2><img alt="Tesla" src="images/Tesla.jpg">
+			<p>Tesla heeft de laatste jaren meerdere modelen elektrische autos uitgebracht</p></a>
+		</div>
+		<div class="column" style="background-color:#bbb;">
+			<a href="Volvo.html">
+			<h2>Volvo</h2><img alt="Volvo" src="images/Volvo.jpg">
+			<p>Volvo is</p></a>
+		</div>
+		<div class="column" style="background-color:#ccc;">
+			<a href="Waymo.html">
+			<h2>Waymo</h2><img alt="Waymo" src="images/Waymo.jpg">
+			<p>Waymo is</p></a>
+		</div>
+	</div>
 </body>
+</html>
