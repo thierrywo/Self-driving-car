@@ -14,6 +14,7 @@ body {
 	border: none;
 	left: 0;
   overflow: hidden;
+  z-index: 500
 }
 .navbar a {
 	float: left;
@@ -81,34 +82,31 @@ body {
 	font-size: 25px;
 
 }
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
+
 img {
 	width: 100%;
 	height: auto;
 }
 
-.column {
-	float: left;
-	width: 30%;
+.col {
+  Float: left;
+	width: 28%;
 	margin: 30px;
 	border-radius: 4px;
   background-color: #555;
-  height:auto;
+  position:relative;
+  display: table-cell; /* Make elements inside the container behave like table cells */
 }
 
-.column a:link {
+.col a:link {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.column a:visited {
+.col a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.column a:active {
+.col a:active {
 	color: #FFFFFF;
 	text-decoration: none
 }
@@ -116,9 +114,13 @@ img {
   position:relative;
 }
 
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
 
 @media screen and (max-width: 600px) {
-  .column {
+  .col {
     width: 100%;
     float: center;
     margin-left: 0;
