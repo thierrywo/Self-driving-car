@@ -85,3 +85,45 @@ img {
   width: 50%;
 	height: auto;
 }
+
+@media screen and (max-width: 600px) {
+.openbtn {
+	float: left;
+	font-size: 15px;
+	background-color: #555;
+	text-decoration: none;
+	color: white;
+	padding: 14px;
+	border: none;
+	text-align: center;
+	width: 15%;
+}
+  
+.navbar {
+	width: 100%;
+	background-color: #555;
+	position: fixed;
+	top: 0;
+	border: none;
+	left: 0;
+}
+.navbar a {
+	float: left;
+	font-size: 15px;
+	background-color: #555;
+	text-decoration: none;
+	color: white;
+	padding: 14px;
+	border: none;
+	text-align: center;
+	width: 50%;
+	display: block;
+}
+  .navbar input[type=text] {
+	float: right;
+	width: 35%;
+	padding: 12px;
+	font-size: 15px;
+
+}
+}
