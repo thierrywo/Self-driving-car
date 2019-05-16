@@ -4,11 +4,8 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 60px;
-<<<<<<< HEAD
   text-align: center; 
-=======
-	text-align:center;
->>>>>>> 74072e0cced14660371b20c4b814221861c8b1f2
+
 }
 .navbar {
 	width: 100%;

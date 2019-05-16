@@ -42,19 +42,6 @@ html, body {
 .navbar a:hover {
 	background-color: #000;
 }
-h1{ 
-text-align: center; 
-}
-h2{
-  text-align: center; 
-} 
-
-li { 
-text-align: center; 
-}
-h4{
-  text-align: center;
-}
 
 .logo-text {
   width:100%;
@@ -121,20 +108,15 @@ h4{
 .footer .footer-content { 
   border: 1px solid red; 
   height: auto; 
+  text-align: left;
 }
 
 .footer .footer-content .footer-section {
   border: 1px solid white; 
   padding: 25px; 
-<<<<<<< HEAD
-  text-align: center; 
-  padding-top: 46px; 
-  padding-left: 200px; 
-  padding-right: 200px; 
-=======
-  text-align: center;  
+  text-align: left;  
   width:100%;
->>>>>>> a4979a9dbdf8686cfd2b74a11aa7f0d28204d8ef
+  height: auto;
 }
 
 .footer .footer-bottom { 
@@ -147,9 +129,10 @@ h4{
   left: 0px; 
   padding-top: 20px; 
   padding-bottom: 20px;
- 
 }
-
+.footer-section about{
+  text-align:center;
+}
 img {
   width: 98%;
 	height: auto;
