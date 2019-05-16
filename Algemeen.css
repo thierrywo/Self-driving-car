@@ -14,6 +14,7 @@ body {
 	top: 0;
 	border: none;
 	left: 0;
+    z-index: 500;
 }
 .navbar a {
 	float: left;
