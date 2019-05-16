@@ -14,7 +14,7 @@ body {
 	left: 0;
 }
 .navbar a {
-	float: left;
+	float: center;
 	font-size: 25px;
 	background-color: #555;
 	text-decoration: none;
