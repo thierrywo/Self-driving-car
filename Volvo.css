@@ -47,6 +47,10 @@ text-align: center;
 }
 h2{
   text-align: center; 
+} 
+
+li { 
+text-align: center; 
 }
 .sidebar {
 	height: 100%;
@@ -119,8 +123,8 @@ h2{
   padding: 25px; 
   text-align: center; 
   padding-top: 46px; 
-  padding-left: 550px; 
-  padding-right: 550px; 
+  padding-left: 200px; 
+  padding-right: 200px; 
 }
 
 .footer .footer-bottom { 
