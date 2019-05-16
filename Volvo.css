@@ -3,9 +3,21 @@
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 60px;
-  text-align: center; 
+	margin-top: 60px; 
 }
+
+.page { 
+  font-family: Arial, Helvetica, sans-serif;
+	margin-top: 60px; 
+  margin: 40px auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: white;
+  overflow: hidden;
+  width: 938px;
+  padding: 20px; 
+} 
+
 .navbar {
 	width: 100%;
 	background-color: #555;
@@ -16,20 +28,25 @@ body {
 }
 .navbar a {
 	float: left;
+  text-align: center;
 	font-size: 25px;
 	background-color: #555;
 	text-decoration: none;
 	color: white;
 	padding: 14px;
 	border: none;
-	
 	width: 75%;
 	display: block;
 }
 .navbar a:hover {
 	background-color: #000;
 }
-
+h1{ 
+text-align: center; 
+}
+h2{
+  text-align: center; 
+}
 .sidebar {
 	height: 100%;
 	width: 0;
@@ -81,9 +98,23 @@ body {
 	font-size: 25px;
 }
 
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: -377px;
+  left: 0;
+  padding: 1rem;
+  background-color: #242424;
+  text-align: center;
+  color: white; 
+} 
+
 img {
-  width: 50%;
+  width: 98%;
 	height: auto;
+  text-align: center; 
+  border: 1px solid red; 
+  margin-left: 8px; 
 }
 
 @media screen and (max-width: 600px) {
