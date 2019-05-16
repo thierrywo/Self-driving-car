@@ -85,6 +85,29 @@ img {
 	height: auto;
 }
 
+#Ongelukken {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Ongelukken td, #Ongelukken th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Ongelukken tr:nth-child(even){background-color: #f2f2f2;}
+
+#Ongelukken tr:hover {background-color: #ddd;}
+
+#Ongelukken th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
 .openbtn {
 	float: left;
@@ -126,4 +149,3 @@ img {
 
 }
 }
-
