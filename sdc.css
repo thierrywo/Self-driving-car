@@ -5,6 +5,7 @@ html, body {
 	height: 100%;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 60px;
+  background-color: #d3d3d3; 
 }
 .page {
 	font-family: Arial, Helvetica, sans-serif;
@@ -14,8 +15,8 @@ html, body {
 	border-radius: 15px;
 	background-color: white;
 	overflow: hidden;
-	width: 100%;
-	padding: 20px;
+	width: 1750px;
+	padding-left: 74px;
 	text-align: center;
 }
 .navbar {
@@ -102,14 +103,19 @@ html, body {
 	height: auto;
 	position: relative;
 	bottom: 0px;
+  margin-left: -8px; 
+  margin-right: -8px; 
+  border-radius: 15px; 
 }
 .footer .footer-content {
-	border: 1px solid red;
+	border: 1px solid black;
 	height: auto;
 	text-align: left;
+  border-radius: 15px; 
 }
 .footer .footer-content .footer-section {
-	border: 1px solid white;
+	border: 1px solid black;
+  border-radius: 15px; 
 	padding: 25px;
 	text-align: left;
 	width: 100%;
