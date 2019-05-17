@@ -9,54 +9,74 @@
 	</script>
 </head>
 <body>
-	<div class="navbar">
-		<button class="openbtn" onclick="openNav()">☰</button> <a class="active" href="index.html">Zelfrijdende auto's</a> <input placeholder="Search.." type="text">
-	</div>
-
-  <div class="sidebar" id="mySidebar">
-		<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a> <a href="Algemeen.html">Algemeen</a> <a href="Tesla.html">Tesla</a> <a href="Volvo.html">Volvo</a> <a href="Waymo.html">Waymo</a> <a href="Yandex.html">Yandex</a> <a href="Navya.html">Navya</a> <a href="Ford.html">Ford</a> <a href="Contact.html">Contact</a>
-	</div>
-  
-	<div class="container">
-		<div style="text-align:center">
-			<h2>Contact</h2>
-			<p>Stuur gerust een email als u vragen heeft!</p>
+	<div class="page">
+		<div class="navbar">
+			<button class="openbtn" onclick="openNav()">☰</button> <a class="active" href="index.html">Zelfrijdende auto's</a> <input placeholder="Search.." type="text">
 		</div>
-		<div class="row">
-			<div class="column"><img src="images/Contact.jpg" style="width:100%"></div>
-			<div class="column">
-				<form action="/action_page.php">
-					<label for="Voornaam">Voornaam</label> 
-          <input id="Voornaam" name="Voornaam" placeholder="Uw voornaam.." type="text"> 
-          <label for="Achternaam">Achternaam</label> 
-          <input id="Achternaam" name="Achternaam" placeholder="Uw achternaam.." type="text"> 
-          <label for="Email">Email</label> 
-          <input id="Email" name="Email" placeholder="Uw Email.." type="text"> 
-          <label for="Telefoonnummer">Telefoonnummer</label>
-          <input id="Telefoonnummer" name="telefoonnummer" pattern=".{6,}" placeholder="Uw telefoonnummer.. (minimaal 6 nummers)" type="text"> 
-          <label for="Land">Land</label> <select id="Land" name="Land">
-						<option value="Nederland">
-							Nederland
-						</option>
-						<option value="Luxemburg">
-							Luxemburg
-						</option>
-						<option value="USA">
-							USA
-						</option>
-            <option value="Deutschland">
-              Deutschland
-            </option>
-            <option value="France">
-            France
-            </option>
-					</select> <label for="Onderwerp">Onderwerp</label> 
-					<textarea id="Onderwerp" name="Onderwerp" placeholder="Schrijf iets.." style="height:170px"></textarea> <input type="Stuur" value="Stuur">
-				</form>
+		<div class="sidebar" id="mySidebar">
+			<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a> <a href="Algemeen.html">Algemeen</a> <a href="Tesla.html">Tesla</a> <a href="Volvo.html">Volvo</a> <a href="Waymo.html">Waymo</a> <a href="Yandex.html">Yandex</a> <a href="Navya.html">Navya</a> <a href="Ford.html">Ford</a> <a href="Contact.html">Contact</a>
+		</div>
+		<div class="container">
+			<div style="text-align:center">
+				<h2>Contact</h2>
+				<p>Stuur gerust een email als u vragen heeft!</p>
+			</div>
+			<div class="row">
+				<div class="column"><img src="images/Contact.jpg" style="width:100%"></div>
+				<div class="column">
+					<form action="/action_page.php">
+						<label for="Voornaam">Voornaam</label> <input id="Voornaam" name="Voornaam" placeholder="Uw voornaam.." type="text"> <label for="Achternaam">Achternaam</label> <input id="Achternaam" name="Achternaam" placeholder="Uw achternaam.." type="text"> <label for="Email">Email</label> <input id="Email" name="Email" placeholder="Uw Email.." type="text"> <label for="Telefoonnummer">Telefoonnummer</label> <input id="Telefoonnummer" name="telefoonnummer" pattern=".{6,}" placeholder="Uw telefoonnummer.. (minimaal 6 nummers)" type="text"> <label for="Land">Land</label> <select id="Land" name="Land">
+							<option value="Nederland">
+								Nederland
+							</option>
+							<option value="Luxemburg">
+								Luxemburg
+							</option>
+							<option value="USA">
+								USA
+							</option>
+							<option value="Deutschland">
+								Deutschland
+							</option>
+							<option value="France">
+								France
+							</option>
+						</select> <label for="Onderwerp">Onderwerp</label> 
+						<textarea id="Onderwerp" name="Onderwerp" placeholder="Schrijf iets.." style="height:170px"></textarea> <input type="stuur" value="Stuur">
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
- 
-  
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h3 class="logo-text"><span>About</span> us</h3>
+				<p>Deze website is gemaakt om jullie wat te leren over zelfrijdene auto's en de ontwikkeling ervan. Wij onderzoek gedaan naar veel producenten van deze autonome auto's en hebben geprobeerd om zo goed mogelijk uit te leggen hoe het werkt en veel geschreven over de vooruitgang van deze auto's.</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i> &#9742;123-456-789</span> <span><i class="fas fa-envelope"></i> &#x2709;110189@st-maartenscollege.nl</span>
+				</div>
+			</div>
+			<div class="footer-section Social">
+				<h3 class="logo-text"><span>Vragen</span> aan ons?</h3>
+				<ol>
+					<li>Bezoek onze contact pagina en vul uw gegevens in en stel uw vraag.</li>
+					<li>U kan altijd vragen stellen via social media, op onder andere deze:
+						<ul>
+							<li>Facebook</li>
+							<li>Twitter</li>
+							<li>Instagram</li>
+							<li>Snapchat</li>
+						</ul>
+					</li>
+					<li>Hiernaast staat ons e-mailadres, waar wij altijd binnen 24 uur reageren.</li>
+					<li>Hiernaast staat ons telefoonnummer en bel gerust als u een dringende vraag heeft.</li>
+				</ol>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			&copy; SDC| Designed by Thierry and Friso
+		</div>
+	</div>
 </body>
 </html>

@@ -1,10 +1,21 @@
 * {
 	box-sizing: border-box
 }
-body {
+html, body {
+	height: 100%;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 60px;
-  text-align:center;
+}
+.page {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 60px;
+	margin: 40px auto;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: white;
+	overflow: hidden;
+	width: 100%;
+	padding: 20px;
 }
 .navbar {
 	width: 100%;
@@ -13,23 +24,26 @@ body {
 	top: 0;
 	border: none;
 	left: 0;
+	z-index: 500;
 }
 .navbar a {
 	float: left;
+	text-align: center;
 	font-size: 25px;
 	background-color: #555;
 	text-decoration: none;
 	color: white;
 	padding: 14px;
 	border: none;
-	text-align: center;
 	width: 75%;
 	display: block;
 }
 .navbar a:hover {
 	background-color: #000;
 }
-
+.logo-text {
+	width: 100%;
+}
 .sidebar {
 	height: 100%;
 	width: 0;
@@ -41,6 +55,7 @@ body {
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
+	z-index: 500;
 }
 .sidebar a {
 	padding: 8px 8px 8px 32px;
@@ -80,89 +95,133 @@ body {
 	padding: 12px;
 	font-size: 25px;
 }
-img {
-	width: 50%;
+.footer {
+	background: #303036;
+	color: #d3d3d3;
+	height: auto;
+	position: relative;
+	bottom: 0px;
+}
+.footer .footer-content {
+	border: 1px solid red;
+	height: auto;
+	text-align: left;
+}
+.footer .footer-content .footer-section {
+	border: 1px solid white;
+	padding: 25px;
+	text-align: left;
+	width: 100%;
 	height: auto;
 }
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  resize: vertical;
-}
-
-input[type=Stuur] {
-  background-color: #555;
-  color: white;
-  padding: 17px 20px;
-  border: none;
-  cursor: pointer;
-  width: 81px; 
-  font-size: 17px; 
-}
-
-input[type=Stuur]:hover {
-  background-color: #000;
-}
-
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-.openbtn {
-	float: left;
-	font-size: 15px;
-	background-color: #555;
-	text-decoration: none;
-	color: white;
-	padding: 14px;
-	border: none;
-	text-align: center;
-	width: 15%;
-}
-  
-.navbar {
+.footer .footer-bottom {
+	background: #343a40;
+	color: #686868;
+	height: auto;
 	width: 100%;
-	background-color: #555;
-	position: fixed;
-	top: 0;
-	border: none;
-	left: 0;
-}
-.navbar a {
-	float: left;
-	font-size: 15px;
-	background-color: #555;
-	text-decoration: none;
-	color: white;
-	padding: 14px;
-	border: none;
 	text-align: center;
-	width: 50%;
-	display: block;
+	position: absolute;
+	left: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-  .navbar input[type=text] {
-	float: right;
-	width: 35%;
+.footer-section about {
+	text-align: center;
+}
+img {
+	width: 98%;
+	height: auto;
+	text-align: center;
+	border: 2px solid #7a1b0c;
+	margin-left: 8px;
+}
+input[type=text], select, textarea {
+	width: 100%;
 	padding: 12px;
-	font-size: 15px;
-  }
-  .column {
-    width:100%;
-  }
+	resize: vertical;
 }
+input[type=Stuur] {
+	background-color: #555;
+	color: white;
+	padding: 17px 20px;
+	border: none;
+	cursor: pointer;
+	width: 81px;
+	font-size: 17px;
+}
+input[type=Stuur]:hover {
+	background-color: #000;
+}
+/* Create two columns that float next to eachother */
 
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+}
+/* Clear floats after the columns */
 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.openbtn {
+		float: left;
+		font-size: 15px;
+		background-color: #555;
+		text-decoration: none;
+		color: white;
+		padding: 14px;
+		border: none;
+		text-align: center;
+		width: 15%;
+	}
+	.navbar {
+		width: 100%;
+		background-color: #555;
+		position: fixed;
+		top: 0;
+		border: none;
+		left: 0;
+		z-index: 500;
+	}
+	.navbar a {
+		float: left;
+		font-size: 15px;
+		background-color: #555;
+		text-decoration: none;
+		color: white;
+		padding: 14px;
+		border: none;
+		text-align: center;
+		width: 50%;
+		display: block;
+	}
+	.navbar input[type=text] {
+		float: right;
+		width: 35%;
+		padding: 12px;
+		font-size: 15px;
+	}
+	html, body {
+		height: 100%;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.page {
+		font-family: Arial, Helvetica, sans-serif;
+		margin-top: 60px;
+		margin: 40px auto;
+		border: 2px solid black;
+		border-radius: 15px;
+		background-color: white;
+		overflow: hidden;
+		width: 100%;
+		padding: 20px;
+	}
+	.column {
+		width: 100%;
+	}
+}
